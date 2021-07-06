@@ -30,6 +30,8 @@ a:link {
   top: 250px;
   color: gold;
   line-height: 175px;
+  border-style: outset;
+  border-color: teal;
 }
 
 .lnk-life {
