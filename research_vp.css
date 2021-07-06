@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.link {
+  display: inline-block;
+  color: white;
+  background-color: lightblue;
+  margin: 50px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100px;
+  position: relative;
+  top: 300px;
+  left: 350px;
+}
