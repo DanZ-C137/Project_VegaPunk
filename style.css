@@ -1,5 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+}
+
 header {
   color: navy;
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 70px;
   text-align: center;
+  position: relative;
+  top: 120px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.link {
+  height: 175px;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  color: gold;
+  line-height: 175px;
+}
+
+.lnk-life {
+  width: 400px;
+  float: left;
+  position: relative;
+  left: 400px;
+  background-color: lightgreen;
+}
+
+.lnk-research {
+  width: 400px;
+  float: right;
+  position: relative;
+  right: 400px;
+  background-color: aqua;
 }
