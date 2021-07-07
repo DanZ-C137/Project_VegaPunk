@@ -26,7 +26,7 @@ a:link {
   border-color: white;
 }
 
-.lifepage, .researchpage {
+.homepage, .lifepage, .researchpage {
   display: inline-block;
   color: black;
   margin: 20px;

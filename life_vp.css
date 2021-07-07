@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: snow;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.homepage, .lifepage, .researchpage {
+  display: inline-block;
+  color: black;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
+  border-style: outset;
+  border-color: white;
+}
