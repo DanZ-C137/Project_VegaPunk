@@ -24,7 +24,7 @@ a:link {
   font-weight: 700;
   line-height: 100px;
   position: relative;
-  top: 275px;
+  top: 200px;
   left: 350px;
   border-style: outset;
   border-color: white;
@@ -44,7 +44,8 @@ a:link {
 .workhistory {
   text-align: center;
   font-size: 3em;
-  font-weight: 700;
+  font-weight: 800;
+  text-decoration: underline;
 }
 
 .workhistory_p {
