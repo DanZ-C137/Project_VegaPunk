@@ -28,7 +28,7 @@ a:link {
   text-align: center;
   position: relative;
   top: 250px;
-  color: gold;
+  color: black;
   line-height: 175px;
   border-style: outset;
   border-color: teal;
@@ -47,5 +47,5 @@ a:link {
   float: right;
   position: relative;
   right: 400px;
-  background-color: aqua;
+  background-color: #588BB3;
 }
