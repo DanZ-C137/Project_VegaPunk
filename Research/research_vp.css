@@ -30,7 +30,7 @@ a:link {
   border-color: white;
 }
 
-.homepage, .lifepage, .researchpage {
+.homepage {
   display: inline-block;
   color: black;
   background-color: lightblue;
@@ -41,7 +41,7 @@ a:link {
   border-color: white;
 }
 
-.workhistory {
+.workhistory_t {
   text-align: center;
   font-size: 3em;
   font-weight: 800;
