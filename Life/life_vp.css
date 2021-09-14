@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -12,7 +11,7 @@ a:link {
   text-decoration: none;
 }
 
-.homepage, .lifepage, .researchpage {
+.homepage {
   display: inline-block;
   color: black;
   margin: 20px;
