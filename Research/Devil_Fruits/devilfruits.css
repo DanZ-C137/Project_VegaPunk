@@ -2,19 +2,30 @@ body {
   background-color: aquamarine;
 }
 
-a:link {
+a {
   text-decoration: none;
 }
 
-.homepage, .researchpage, .dfbut {
-  display: inline-block;
+.navcontainer, .navbutton, .dfbut, .dfcontainer {
+  display: flex;
+}
+
+.navcontainer {
+  justify-content: left;
+  margin: 10px;
+}
+
+.navbutton {
+  width: 6%;
+  justify-content: center;
   color: black;
-  margin: 20px;
+  background-color: lightblue;
+  margin: 10px;
   text-align: center;
   font-size: 25px;
   border-style: outset;
-  border-color: white;
-  background-color: lightblue;
+  border-color: lightblue;
+  padding: 4px;
 }
 
 .dftitle {
@@ -22,8 +33,25 @@ a:link {
   font-size: 3em;
   font-weight: 800;
   text-decoration: underline;
+  margin: 50px;
 }
 
 .dfparag {
   font-size: 2em;
+}
+
+.dfcontainer {
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.dfbut {
+  border: 4px lightblue;
+  border-style: outset;
+  background-color: lightblue;
+  color: black;
+  font-size: 32px;
+  width: 10%;
+  justify-content: center;
+  padding: 10px;
 }

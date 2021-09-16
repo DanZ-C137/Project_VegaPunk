@@ -1,18 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   background-color: #588BB3;
 }
 
-a:link {
+a {
   text-decoration: none;
 } 
 
-.link {
+/*.link {
   display: inline-block;
   color: black;
   background-color: lightblue;
@@ -28,29 +27,52 @@ a:link {
   left: 350px;
   border-style: outset;
   border-color: white;
-}
+}*/
 
 .homepage {
-  display: inline-block;
+  display: flex;
+  width: 4%;
+  justify-content: center;
   color: black;
   background-color: lightblue;
   margin: 20px;
   text-align: center;
   font-size: 25px;
   border-style: outset;
-  border-color: white;
+  border-color: lightblue;
+  padding: 4px;
 }
+
 
 .workhistory_t {
   text-align: center;
   font-size: 3em;
   font-weight: 800;
   text-decoration: underline;
+  margin: 40px;
 }
 
 .workhistory_p {
   font-size: 2em;
+  margin-bottom: 30px;
 }
 
+.buttoncontainer, .box {
+  display: flex;
+  padding: 10px;
+}
 
+.buttoncontainer {
+  justify-content: space-around;
+  margin: 75px;
+}
 
+.box {
+  border: 4px lightblue;
+  border-style: outset;
+  background-color: lightblue;
+  color: black;
+  font-size: 32px;
+  width: 12%;
+  justify-content: center;
+}
